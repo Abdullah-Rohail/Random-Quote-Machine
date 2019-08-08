@@ -1,0 +1,40 @@
+{
+	"authors": [
+		{
+			"name": "Roger Federer",
+			"img": "Assets/img/roger_federer.jpg",
+			"quote": "There’s no way around hard work. Embrace it",
+			"sport": "Tennis"
+		},
+		{
+			"name": "Derek Jeter",
+			"img": "Assets/img/derek_jeter.jpg",
+			"quote": "There may be people who have more talent than you, but there’s no excuse for anyone to work harder than you do – and I believe that",
+			"sport": "Baseball"
+		},
+		{
+			"name": "Michael Jordan",
+			"img": "Assets/img/michael_jordan.jpg",
+			"quote": "I've failed over and over and over again in my life and that is why I succeed",
+			"sport": "Basketball"
+		},
+		{
+			"name": "Muhammad Ali",
+			"img": "Assets/img/muhammad_ali.jpg",
+			"quote": "Float like a butterfly, sting like a bee",
+			"sport": "Boxing"
+		},
+		{
+			"name": "Pele",
+			"img": "Assets/img/pele.jpg",
+			"quote": "The more difficult the victory, the greater the happiness in winning",
+			"sport": "Football"
+		},
+		{
+			"name": "Bruce Lee",
+			"img": "Assets/img/bruce_lee.jpg",
+			"quote": "Mistakes are always forgivable if one has the courage to admit them",
+			"sport": "Martial Arts"
+		}
+	]
+}

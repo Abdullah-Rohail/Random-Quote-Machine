@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Random Quote Machine</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.10.1/css/all.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.10.1/css/v4-shims.css"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+		/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row text-center">
+				<h1>Random Quote Machine</h1>
+				<p>Some Quotes From <strong>Athletes</strong></p>
+				<div class="col-md-12">
+					<figure>
+						<img id="author_img" src="" alt="" class="Cover" />
+						<figcaption><strong></strong></figcaption>
+					</figure>
+				</div>
+			</div>
+
+			<div class="text-center">
+				<div class="text-center well message" id="quote-box">
+					<span id="text"></span>
+					<div class="divider border-bottom" style="visibility: hidden"></div>
+					<span id="author"></span>
+
+					<button class="btn btn-default" id="new-quote">
+						<i class="fa fa-arrow-alt-circle-right"></i>
+						Next Quote
+					</button>
+					<a
+						class="twitter-share"
+						href="https://twitter.com/intent/tweet? text=quote"
+						data-size="large"
+						target="_blank"
+						id="tweet-quote"
+					>
+						<button class="btn btn-default">
+							<i class="fa fa-twitter"></i>
+							Tweet it!
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<footer id="footer">
+			<div class="text-center">
+				<b
+					>Written and Coded By
+					<a href="abdullah_khattak1995@hotmail.com" target="_blank">
+						Abdullah Rohail</a
+					></b
+				>
+			</div>
+		</footer>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
